@@ -17,35 +17,9 @@ This project implements a Variational Autoencoder (VAE) using TensorFlow and Ker
 
 ✅ Training Pipeline using TensorFlow/Keras
 
-## Installation
 
-Clone the repository:
 
-git clone https://github.com/yourusername/VAE-Image-Generation.git
-cd VAE-Image-Generation
-
-Install dependencies:
-
-pip install tensorflow numpy matplotlib scikit-learn keras
-
-Dataset Preparation
-
-Place your dataset images inside the data/ directory.
-
-The script automatically applies data augmentation to enhance the dataset.
-
-Usage
-
-Train the VAE model:
-
-python train_vae.py --epochs 50 --batch_size 32
-
-Generate new images using the trained model:
-
-from model import generate_images
-generate_images(num_images=5)
-
-Model Architecture
+## Model Architecture
 
 Encoder: Convolutional layers reduce image dimensionality.
 
